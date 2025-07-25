@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>voce pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no github</a></p><p>Voce tambem pode acessar o meu <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">canal gratuito no YouTube</a></p>
+    <h2>Usando links internos!</h2>
+    <p>Essa é a primeira página! voce tambem pode acessar a <a href="pagina2-ativ11.html" target="_self">segunda página</a></p>
+    <h2>Página de notícias</h2>
+    <p>Aqui está a página de <a href="pagina3-ativ11.html" target="_self" rel="next">notícias</a></p>
+    <h1>Links Para dowload</h1>
+    <ul>
+        <li><a href="Livro/Quatro-Passos-para-o-Perdao-William-Fergus-Martin.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="Livro/Quatro-Passos-para-o-Perdao-William-Fergus-Martin.zip" download="meulivro.zip" type="application/zip">Livro Compactado em zip</a></li>
+    </ul>
+    
+    <!--Esse target="-blank" e rel="external" faz com que quando ao clicar no link no site do documento ele nao vai sobrepor o site-->
+    <!--Exemplo disso no repositório do github que tem o target="",etc... comparado com o link do canal do youtube que nao tem e sobrepoe o site-->
+    <!--Recomendado abrir a TAG a com o target e rel!-->
+    <!--Tag rel="" descreve a relação entre o documento atual e o recurso vinculado
+    A Tag target="" espesifica onde o documento vinculado será aberto, seja em uma nova aba/janela ou na mesma aba/janela da página atual -->
+    <!--TAG rel="prev" indica que é a página anterior e "next" indica que é a próxima página-->
+    <!--Tag target="_self" espesifica que o link deve ser aberto na mesma janela ou aba do navegador-->
+    <!--TAG download="" é usado para instruir o navegador a baixar o recurso especificado no atributo href, ao clicar no link,o arquivo é baixado-->
+    <!--TAG type="" espesifica o tipo de mídia do recurso vinculado, como "text/html", "text/css", "image/jpeg", etc...-->
+</body>
+</html>

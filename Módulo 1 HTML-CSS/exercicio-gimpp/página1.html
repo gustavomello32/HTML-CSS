@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="exercicio-gimpp/imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="exercicio-gimpp/imagens/imagemmedia.png" type="image/png">g
+        <img src="exercicio-gimpp/imaens/imagemgrande.png" alt="Imagem flexível">
+    </picture>
+    <!--OBSERVAÇÃO*** Colocar /png em type="image..."-->
+    <!--<picture> - define um container de imagem responsiva-->
+    <!--se a largura da tela for até 750px usa a imagem pequena,caso seja maior vai pra media , maior= grande--(isso acontece pra adaptar o site ao rolar a barra de baixo)-->
+    
+</body>
+</html>
