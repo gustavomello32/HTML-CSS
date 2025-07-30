@@ -12,12 +12,19 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-repeat: repeat-y;
+            background-attachment: fixed; /* Nesse exemplo, a imagem de fundo vai ficar parada, enquanto o conteúdo da página rola por cima dela */
+            
+
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed; /* por motivos desconhecidos o cover ta bugado, mas era pra ser daquele jeito msm */
         }
         main {
             border: 1px solid black;
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
