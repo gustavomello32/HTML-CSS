@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+:root {
+    --fonte01 : Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02 : "Passion One", sans-serif;    
+    --fonte03 : "Sriracha", cursive;
+
+}
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--fonte01);
+}
+header {
+    background-color: black;  
+    color: white; 
+    text-align: center;
+
+}
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vw;
+}
+header p {
+    padding-bottom: 50px;
+}
+.destaque {
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte03);
+    font-size: 2vw;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline-block;
+    padding: 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
