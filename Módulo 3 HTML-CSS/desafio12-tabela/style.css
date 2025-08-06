@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+caption {
+    padding-bottom: 8px;
+    color: blue;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+}
+.back {
+    background-color: gray;
+    color: white;
+}
