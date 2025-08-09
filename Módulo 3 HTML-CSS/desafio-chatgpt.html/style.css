@@ -17,21 +17,16 @@
     --font02: "Caveat", cursive;
     --font03: Arial, Helvetica, sans-serif;
 }
-html {
+html, body {
+    height: 100%;
     padding: 0;
     margin: 0;
 }
  body {
-    background-color: var(--cor01);
-    height: 100vh;   
+    background-color: var(--cor01);  
     margin: 0;
     padding: 0; 
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* vh = altura da viewport (tela) */
-}
+ }   
 header {
     width: 100vw;
     height: 150px;
@@ -63,7 +58,6 @@ nav :active {
     background-color:  #ffe602;    
 }
 main {
-    flex: 1;
     padding: 20px;
     max-width: 1000px;
     background-color: rgb(233, 220, 220);
@@ -96,7 +90,6 @@ footer {
     text-align: center;
     color: white;
     font-weight: bolder;
-    padding-bottom: 20px;
 }
 footer a{
     text-decoration: none;
@@ -107,4 +100,23 @@ footer a{
 }
 footer a:hover {
     text-decoration: underline;
+}
+.lista {
+    display: block;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px ;
+    column-count: 2;
+    list-style-position: inside;
+    padding: 20px;
+}
+.lista-ordem {
+    display: flex;
+    text-align: center;
+    
+}
+.p-menor {
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
 }
