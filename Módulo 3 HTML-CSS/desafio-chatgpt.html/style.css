@@ -108,3 +108,11 @@ footer a{
 footer a:hover {
     text-decoration: underline;
 }
+ul .square {
+    list-style-type: square;
+}
+.lista ul{ /* nao ta indo e pa dividir em 2 */
+    column-count: 2;
+    column-gap: 40px;
+
+}
